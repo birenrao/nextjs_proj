@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components List renders List component correctly 1`] = `
+"<List items={{...}}>
+  <div className=\\"grid container\\">
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+    <div className=\\"item\\">
+      <ListItem data={{...}} />
+    </div>
+  </div>
+</List>"
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components List renders List Item component correctly 1`] = `
+"<ListItem data={{...}}>
+  <Link href=\\"/movies/[id]\\" as=\\"/movies/419704\\">
+    <a onMouseEnter={[Function: onMouseEnter]} onClick={[Function: onClick]} href=\\"/movies/419704\\">
+      <h4>
+        Ad Astra
+      </h4>
+      <div className=\\"imageContainer\\">
+        <t alt=\\"Ad Astra\\" effect=\\"blur\\" delayTime={300} src=\\"https://image.tmdb.org/t/p/w300/5BwqwxMEjeFtdknRV792Svo0K1v.jpg\\" afterLoad={[Function: afterLoad]} beforeLoad={[Function: beforeLoad]} delayMethod=\\"throttle\\" placeholderSrc={{...}} threshold={100} useIntersectionObserver={true} visibleByDefault={false} wrapperClassName=\\"\\">
+          <span className=\\" lazy-load-image-background blur\\" style={{...}}>
+            <t beforeLoad={[Function: beforeLoad]} className={[undefined]} delayMethod=\\"throttle\\" delayTime={300} height={[undefined]} placeholder={[undefined]} scrollPosition={[undefined]} style={[undefined]} threshold={100} useIntersectionObserver={true} visibleByDefault={false} width={[undefined]} afterLoad={[Function: afterLoad]}>
+              <img onLoad={[Function]} alt=\\"Ad Astra\\" src=\\"https://image.tmdb.org/t/p/w300/5BwqwxMEjeFtdknRV792Svo0K1v.jpg\\" />
+            </t>
+          </span>
+        </t>
+      </div>
+      <p>
+        The near future, a time when both hope and hardships drive humanity to look to the stars and beyond. While a mysterious phenomenon menaces to destroy life on planet Earth, astronaut Roy McBride undertakes a mission across the immensity of space and its many perils to uncover the truth about a lost expedition that decades before boldly faced emptiness and silence in search of the unknown.
+      </p>
+    </a>
+  </Link>
+</ListItem>"
+`;

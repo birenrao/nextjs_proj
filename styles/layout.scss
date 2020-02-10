@@ -1,0 +1,69 @@
+@import './global.scss';
+
+html, body{
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+  }
+
+.content {
+     flex: 1 0 auto;
+     .errorMSg
+     {
+        text-align: center;
+        display: inline-block;
+        height: 600px;
+        color: red;
+        margin: 200px 0px;
+        width: 100%;
+     }
+     .goupCTA
+     {
+         font-family: 'Roboto', sans-serif;;
+         text-align: center;
+         width:100%;
+         padding: 5px;
+         display:inline-block;
+     }
+     .app-header
+        {
+            background:$primaryColor;
+            box-shadow: 3px 3px 10px #888888;
+            color:white;
+
+            .container
+            {
+                h1{
+                    font-size: 48px;
+                    text-align: center;
+                    padding: 5px;
+                }
+
+                .sub-header
+                {
+                    padding: 5px;
+                    p{
+                        text-align: center;
+                        font-size: 18px;
+                        line-height: 1.5em;
+
+                    }
+                }
+            }
+
+           
+        }
+    }
+.app-footer {
+    flex-shrink: 0;
+    background: #f4f4f4;
+    color: #444;
+    padding: 25px;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+

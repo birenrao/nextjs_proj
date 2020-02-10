@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages Index renders inadex page correctly 1`] = `
+"<ContextProvider value={{...}}>
+  <Layout>
+    <div className=\\"errorMSg\\">
+      Error: due to some technical issues movies details are not available  
+    </div>
+    <p>
+      <Link href=\\"/\\">
+        <a>
+          Go home
+        </a>
+      </Link>
+    </p>
+  </Layout>
+</ContextProvider>"
+`;
