@@ -8,7 +8,7 @@ import getConfig from 'next/config';
 import { AppContextInterface, AppContextProvider } from '../components/AppContext';
 const { publicRuntimeConfig } = getConfig() || {};
 type Props = {
-  items: any
+  items: any;
 };
 
 const IndexPage: NextPage<Props> = ({ items }) => {
@@ -19,12 +19,13 @@ const IndexPage: NextPage<Props> = ({ items }) => {
   return (
     <AppContextProvider value={sampleAppContext}>
       <Layout>
-      { items && <List items={items.results } /> || <div className="errorMSg">Error: due to some technical issues movies details are not available  </div>}
-          <div className="goupCTA">
-            <Link href="/">
-              <a>Go home</a>
-            </Link>
-          </div>
+        {items && <List items={items.results} /> || <div className="errorMSg">
+          Error: due to some technical issues movies details are not available  </div>}
+        <div className="goupCTA">
+          <Link href="/">
+            <a>Go home</a>
+          </Link>
+        </div>
       </Layout>
     </AppContextProvider>);
 };

@@ -9,16 +9,16 @@ type ListDetailProps = {
 const ListDetail: React.FunctionComponent<ListDetailProps> = ({
   item: Movies,
 }) => (
-  <AppContextConsumer>
-    {appContext => appContext && (
-  <div className="container">
-    <div className="movieDetails">
-    <h1>{Movies.title}</h1>
-    <img src={`${appContext.movieRootPath}${Movies.poster_path}`}  alt={Movies.title} />
-    <p> {Movies.overview}</p>
-    </div>
-  </div>)}
-  </AppContextConsumer>
-)
+    <AppContextConsumer>
+      {appContext => appContext && (
+        <div className="container">
+          <div className="movieDetails">
+            <h1>{Movies.title}</h1>
+            <img src={`${appContext.movieRootPath}${Movies.poster_path}`} alt={Movies.title} />
+            <p> {Movies.overview}</p>
+          </div>
+        </div>)}
+    </AppContextConsumer>
+  );
 
 export default ListDetail;

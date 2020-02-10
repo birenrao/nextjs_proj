@@ -1,5 +1,5 @@
-import * as React from 'react'
-import ListItem from './ListItem'
+import * as React from 'react';
+import ListItem from './ListItem';
 import { Movies } from '../interfaces';
 import '../styles/list.scss';
 
@@ -13,8 +13,10 @@ const List: React.FunctionComponent<Props> = ({ items }) => (
       <div className="item" key={item.id}>
         <ListItem data={item} />
       </div >
-    )) || <div className="errorMSg">Error: due to some technical issues movies details are not available  </div> }
+    )) || <div className="errorMSg">E
+    rror: due to some technical issues movies details are not available
+    </div>}
   </div>
-)
+);
 
 export default List;
