@@ -14,7 +14,7 @@ This is a really simple project that shows the usage of Next.js with TypeScript 
 8. Custom font from Google font.
 9. used isomorphic-unfetch rather than Axios becuase this project small enough does not require heavy package like Axios.
 10. TSLinting is also applied.
-11. Used Husky package which can prevent bad git commit, git push, It will check TSlint bebore git commit and push
+11. Used Husky package which can prevent bad git commit, git push, It will check TSlint before git commit and push
 
 ## Installation
 
