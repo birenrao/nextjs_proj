@@ -1,4 +1,4 @@
-# TypeScript, Next.js, react.js, jest, Enzyme, React Lazy Loading, SASS, TSLint, Husky example
+# TypeScript, Next.js, React.js, Jest, Enzyme, React Lazy Loading, SASS, TSLint, Husky example
 
 This is a really simple project that shows the usage of Next.js with TypeScript on top of Jest, React LazyLoad, Enzyme and React.js with context API, for simplicity used isomorphic_ufetch.
 
