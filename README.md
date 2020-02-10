@@ -34,6 +34,13 @@ To Run the project
 yarn dev
 ```
 
+Project will run in browser
+
+```bash
+http://localhost:3000/
+```
+
+
 
 
 
