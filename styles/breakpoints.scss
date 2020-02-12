@@ -1,20 +1,20 @@
 
-$break-xxs: 375 !default; // from "phone portrait" size
-$break-xs: 568 !default; // from "phone landscape" size
-$break-small: 768 !default; // from "tablet" size
-$break-medium: 1024 !default; // from "desktop" size
-$break-large: 1280 !default; // from bigger desktop size
+$breakpoint-xxs: 375 !default; // from "phone portrait" size
+$breakpoint-xs: 568 !default; // from "phone landscape" size
+$breakpoint-small: 768 !default; // from "tablet" size
+$breakpoint-medium: 1024 !default; // from "desktop" size
+$breakpoint-large: 1280 !default; // from bigger desktop size
 
-$break-points-map: (
-  xxs: $break-xxs,
-  xs: $break-xs,
-  small: $break-small,
-  medium: $break-medium,
-  large: $break-large
+$breakpoints-map: (
+  xxs: $breakpoint-xxs,
+  xs: $breakpoint-xs,
+  small: $breakpoint-small,
+  medium: $breakpoint-medium,
+  large: $breakpoint-large
 );
 
 @function getBreakpoint($key) {
-  @return map-get($break-points-map, $key);
+  @return map-get($breakpoints-map, $key);
 }
 
 @mixin breakpoint($width) {
