@@ -40,6 +40,11 @@ Project will run in browser
 http://localhost:3000/
 ```
 
+You can see the demo app on below URL
+
+```bash
+https://nextjs-biren.herokuapp.com/
+```
 
 
 
