@@ -46,7 +46,7 @@ You can see the demo app on below URL
 https://nextjs-biren.herokuapp.com/
 ```
 
-Audit Report of this demo app.
+Audit Report of this demo app at slow 3G network.
 
 ![Screenshot](screenshot.png)
 
