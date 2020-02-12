@@ -6,13 +6,13 @@ exports[`Pages Index renders inadex page correctly 1`] = `
     <div className=\\"errorMSg\\">
       Error: due to some technical issues movies details are not available  
     </div>
-    <p>
+    <div className=\\"goupCTA\\">
       <Link href=\\"/\\">
         <a>
           Go home
         </a>
       </Link>
-    </p>
+    </div>
   </Layout>
 </ContextProvider>"
 `;

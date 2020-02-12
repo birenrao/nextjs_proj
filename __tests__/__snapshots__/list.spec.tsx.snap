@@ -2,67 +2,6 @@
 
 exports[`components List renders List component correctly 1`] = `
 "<List items={{...}}>
-  <div className=\\"grid container\\">
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-    <div className=\\"item\\">
-      <ListItem data={{...}} />
-    </div>
-  </div>
+  <div className=\\"grid container\\" />
 </List>"
 `;
