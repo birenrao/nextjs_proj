@@ -11,11 +11,12 @@ type Props = {
   items: any;
 };
 
-const IndexPage: NextPage<Props> = ({ items }) => {
+const IndexPage: NextPage<Props> = ({ items }:{ items:any }) => {
   const sampleAppContext: AppContextInterface = {
     movieRootPath: publicRuntimeConfig && publicRuntimeConfig.imageRootPath || '',
     movieList: items,
   };
+
   return (
     <AppContextProvider value={sampleAppContext}>
       <Layout>
